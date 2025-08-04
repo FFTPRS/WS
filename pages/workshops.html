@@ -1,0 +1,50 @@
+---
+layout: default
+title: "FFTPRS ワークショップ一覧"
+description: "FFTPRSで開催されたワークショップの一覧です"
+---
+
+<!-- パンくず -->
+<nav class="flex items-center space-x-2 text-sm text-gray-500 mb-6 px-4 max-w-[960px] mx-auto">
+    <a href="/site/" class="hover:text-blue-600 transition-colors duration-200">ホーム</a>
+    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+    </svg>
+    <span class="text-gray-700 font-medium">ワークショップ一覧</span>
+</nav>
+
+<div class="px-40 flex flex-1 justify-center py-5">
+    <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+        <div class="flex flex-wrap justify-between gap-3 p-4">
+            <p class="text-[#101518] tracking-light text-[32px] font-bold leading-tight min-w-72">FFTPRS ワークショップ一覧
+            </p>
+        </div>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {% assign sorted_workshops = site.data.workshops | sort: 'start_date' | reverse %}
+            {% for workshop in sorted_workshops %}
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                    <img alt="Workshop" class="w-full h-48 object-cover"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuBu4B3SmV6I2BvvkQAlcXWOH1Bgt8qP2c4FNXqpCu9UVX6gelBUCtQfXnF_pmnqiIX4Og22kjdW2-hS7FOfAp3LseP5nbUjndZuJ-2lK4esOJC5IKved9fbQv-BkVv1Yqnbsrj21nlQHQmEb_lg04zRl8zsz5gxAmfcXJdX1qOr4zWkOqtIzbQ8zT6HiWUM_A7g4ADMJbtaaK1Rp4Bcu-XkQUQgbrPYMDksGfceZGdcwsKLLa4uNEVa9wpXGhyrnW-LGVkcKrx_Fd4" />
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold text-gray-800 mb-2">{{ workshop.title }}</h4>
+                        <p class="text-sm text-gray-500 mb-4">{{ workshop.start_date | date: "%Y年%m月%d日" }} 〜 {{ workshop.end_date | date: "%Y年%m月%d日" }}</p>
+                        <p class="text-sm text-gray-500 mb-4 font-bold">{{ workshop.status }}</p>
+                        <p class="text-gray-700 mb-4">開催地: {{ workshop.location }}</p>
+                        {% if workshop.status == '未定' %}
+                            <a class="inline-block bg-gray-300 text-gray-600 font-semibold px-6 py-2 rounded-lg cursor-not-allowed" href="#">詳細を見る</a>
+                        {% elsif workshop.url == '' %}
+                            <a class="inline-block bg-gray-300 text-gray-600 font-semibold px-6 py-2 rounded-lg cursor-not-allowed" href="#">詳細を見る</a>
+                        {% else %}
+                            {% assign url = workshop.url %}
+                            {% if url contains 'http://' or url contains 'https://' %}
+                                <a class="inline-block bg-blue-600 text-white font-semibold px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-300" href="{{ url }}" target="_blank">詳細を見る</a>
+                            {% else %}
+                                <a class="inline-block bg-blue-600 text-white font-semibold px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-300" href="{{ url | relative_url }}">詳細を見る</a>
+                            {% endif %}
+                        {% endif %}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

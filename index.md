@@ -8,7 +8,7 @@ description: "FFTPRS ワークショップの公式サイトへようこそ"
 <section class="text-center mb-16">
     <div class="container mx-auto px-4 text-center">
         <h2 class="text-4xl font-bold text-gray-900 mb-4">有限体理論とその擬似乱数系列生成への応用ワークショップ</h2>
-        <p class="text-lg text-gray-600 max-w-3xl mx-auto">サブタイトル（概要）</p>
+    
     </div>
     
     <!-- アンカーリンク 

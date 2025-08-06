@@ -67,9 +67,9 @@ description: "FFTPRS ワークショップの公式サイトへようこそ"
 <section class="bg-blue-50 rounded-lg p-8 md:p-12 mb-16" id="workshop-significance">
     <div class="flex flex-col md:flex-row items-center justify-between gap-8">
         <div class="md:w-1/2">
-        <h3 class="text-3xl font-bold text-gray-800 mb-4">有限体理論とその擬似乱数系列生成への応用ワークショップの意義</h3>
-        <p class="text-gray-700 leading-relaxed">私たちは、日頃より有限体理論やその擬似乱数系列生成への応用に関連する研究者、<br />
-        またそのようなテーマに興味をもっている研究者が一堂に会し、日々の研究活動の中で得られた成果の報告をはじめ、疑問に思っている事柄、<br />
+        <h3 class="text-3xl font-bold text-gray-800 mb-4">本ワークショップの目的</h3>
+        <p class="text-gray-700 leading-relaxed">有限体理論とその擬似乱数系列生成への応用ワークショップは、日頃より有限体理論やその擬似乱数系列生成への応用に関連する研究者、
+        またそのようなテーマに興味をもっている研究者が一堂に会し、日々の研究活動の中で得られた成果の報告をはじめ、疑問に思っている事柄、
         あるいは個人的な興味から深く掘り下げているテーマなどを、十分な時間をかけてお互いに紹介し、共有し、密な議論を展開するための場を提供することを意図したワークショップです。
         それぞれの研究活動がより情熱をもって進められることへの一助になることを期待しています。</p>
     </div>
@@ -78,7 +78,7 @@ description: "FFTPRS ワークショップの公式サイトへようこそ"
             <div class="bg-white p-6 rounded-lg shadow-md text-center">
                 <span class="material-icons text-blue-600 text-4xl mb-2">school</span>
                 <h4 class="font-bold text-gray-800">専門知識</h4>
-                <p class="text-sm text-gray-600">各分野の研究者から学ぶ</p>
+                <p class="text-sm text-gray-600">最新の研究結果から学ぶ</p>
             </div>
             <div class="bg-white p-6 rounded-lg shadow-md text-center">
                 <span class="material-icons text-blue-600 text-4xl mb-2">groups</span>

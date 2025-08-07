@@ -76,22 +76,6 @@ program:
       speaker: ""
       description: ""
 
-
-  - day: "3日目: 2016年09月16日(金)"
-    time_schedule: 
-    - time: "09:00 - 09:50"
-      title: "講演8"
-      speaker: ""
-      description: ""
-    - time: "10:00 - 10:50"
-      title: "講演9"
-      speaker: ""
-      description: ""
-    - time: "10:50 - "
-      title: "閉会あいさつ"
-      speaker: ""
-      description: ""
-
 proceedings: ""
 manuscript_format: ""
 

@@ -171,7 +171,7 @@ git push origin main
 ## 連絡先
 
 - **メール**: fftprs[at]googlegroups.com
-- **GitHub**: [リポジトリのIssues](https://github.com/your-username/fftprsws_website/issues)
+- **GitHub**: [リポジトリのIssues](https://github.com/FFTPRS/WS/issues)
 
 
 ---

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: {{ site.url }}/sitemap.xml 
+Sitemap: https://fftprs.github.io/WS/sitemap.xml 

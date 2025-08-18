@@ -1,7 +1,7 @@
 # Site settings
 title: "FFTPRS"
 description: "FFTPRS ワークショップ"
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "https://fftprs.github.io/WS/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings

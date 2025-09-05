@@ -50,10 +50,11 @@ program:
       title: "【未定】講演4: 講演タイトル"
       speaker: "発表者: 発表者（所属名）"
       description: "発表概要"
-    - time: "15:00 - 15:30"
-      title: "【未定】講演5: 講演タイトル"
-      speaker: "発表者: 発表者（所属名）"
-      description: "発表概要"
+    - time: "19:00 - "
+      title: "懇親会"
+      speaker: "会場: 日本料理ゆずはん"
+      description: "〒877-0044 大分県日田市隈１丁目２−６<br />
+                    Tel: 0973-24-3006"
   - day: "2日目: 2025年09月17日(水)"
     time_schedule: 
     - time: "9:30 - 10:00"

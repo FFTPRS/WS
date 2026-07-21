@@ -26,11 +26,10 @@ application_description: "
 program: 
   - day: "1日目: 2025年09月15日(火)"
     time_schedule: 
-TBD
-
-  - day: "2日目: 2025年09月16日(水)"
-    time_schedule: 
-TBD
+    - time: ""
+      title: "TBD"
+      speaker: ""
+      description: ""
 
 proceedings: "公開停止中"
 manuscript_format: "https://github.com/FFTPRS/WS/raw/master/fftprsws25.zip"

@@ -22,7 +22,10 @@ fftprsws_website/
 │
 ├── _data/                      # データファイル
 │   ├── workshops.yml           # ワークショップ一覧データ
-│   └── workshop11.yml          # 第11回ワークショップ詳細データ
+│   ├── workshop1.yml           # 第1回ワークショップ詳細データ
+│   ├── workshop2.yml           # 第2回ワークショップ詳細データ
+│   ├── workshop11.yml          # 第11回ワークショップ詳細データ
+│   └── workshop12.yml          # 第12回ワークショップ詳細データ
 │   
 ├── _includes/                  # 共通コンポーネント
 │   ├── header.html             # ヘッダー
@@ -39,16 +42,27 @@ fftprsws_website/
 │   │   └── style.css           # カスタムCSS
 │   ├── js/
 │   │   └── main.js             # カスタムJavaScript
-│   └── img/                    # 画像ファイル
+│   ├── pdf/                    # 予稿集ディレクトリ
+│   │   ├── 2025_hita           # 第11回ワークショップ予稿集格納ディレクトリ
+│   │   └── 2026_hakata         # 第12回ワークショップ予稿集格納ディレクトリ
+│   └── zip/                    # 原稿フォーマット格納ディレクトリ
+│       ├── fftprsws25.zip      # 第11回ワークショップ原稿フォーマット
+│       └── fftprsws26.zip      # 第12回ワークショップ原稿フォーマット
 │
 ├── pages/                      # ページファイル
 │   ├── workshops.html          # ワークショップ一覧ページ
-│   └── workshop11.html         # 第11回ワークショップページ
+│   ├── workshop1.html          # 第1回ワークショップページ
+│   ├── workshop2.html          # 第2回ワークショップページ
+│   ├── workshop11.html         # 第11回ワークショップページ
+│   └── workshop12.html         # 第12回ワークショップページ
 │    
 ├── index.md                    # トップページ
 ├── Gemfile                     # Ruby依存関係
 ├── Gemfile.lock                # 依存関係ロックファイル
-└── robots.txt                  # 検索エンジン用ファイル
+├── README.md                   # 本ドキュメント
+├── robots.txt                  # 検索エンジン用ファイル
+├── 新しいページ作成手順書.md     # 新規回を作成する場合の手引書
+└── 新しいページ作成手順書.pdf    # 新規回を作成する場合の手引書
 
 ```
 

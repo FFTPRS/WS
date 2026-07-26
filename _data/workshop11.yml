@@ -87,7 +87,7 @@ program:
       description: ""
 
 proceedings: "https://github.com/FFTPRS/WS/releases/download/20250916/FFTPRS2025.zip"
-manuscript_format: "https://github.com/FFTPRS/WS/raw/master/fftprsws25.zip"
+manuscript_format: "https://github.com/FFTPRS/WS/raw/master/assets/zip/fftprsws25.zip"
 
 
 links: 

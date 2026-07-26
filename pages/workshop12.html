@@ -85,22 +85,44 @@ description: "第12回有限体理論とその擬似乱数系列生成への応�
                                 {{ workshop.application_description }}
                             </div>
                             
-                            <!-- Googleフォーム申し込みボタン -->
+                            <!-- YAMLの公開状態に応じた参加申し込みボタン -->
                             <div class="bg-white p-4 rounded-lg border border-gray-200 mb-6">
                                 <div class="flex items-center justify-between">
                                     <div>
                                         <h5 class="font-medium text-gray-800 mb-1">参加申し込みフォーム</h5>
                                         <p class="text-sm text-gray-600">
+                                            {% if workshop.application_form.status == '公開中' and workshop.application_form.url != '' and workshop.application_form.url != null %}
                                             参加ご希望の方は、ボタンから参加登録フォームにアクセスして申し込みを行ってください。
+                                            {% elsif workshop.application_form.status == '終了' %}
+                                            参加申し込みは終了しました。
+                                            {% else %}
+                                            参加申し込みフォームは現在準備中です。
+                                            {% endif %}
                                         </p>
                                     </div>
+                                    {% if workshop.application_form.status == '公開中' and workshop.application_form.url != '' and workshop.application_form.url != null %}
                                     <a class="inline-flex items-center bg-green-600 text-white font-medium py-3 px-6 rounded-lg hover:bg-green-700 transition-colors duration-200 shadow-sm"
-                                       href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=dqpZ2qrg50-_EXI97pjWdorPFvBF-BFDr4AyG3iXSWNUMkFUMVRSMDREVDNBSjA5TkNJTlUyTEFOMC4u" target="_blank">
+                                       href="{{ workshop.application_form.url }}" target="_blank" rel="noopener noreferrer">
                                         <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
                                         </svg>
                                         申し込みフォーム
                                     </a>
+                                    {% elsif workshop.application_form.status == '終了' %}
+                                    <button class="inline-flex items-center bg-gray-300 text-gray-600 font-medium py-3 px-6 rounded-lg cursor-not-allowed" type="button" disabled>
+                                        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                                        </svg>
+                                        申し込み終了
+                                    </button>
+                                    {% else %}
+                                    <button class="inline-flex items-center bg-gray-300 text-gray-600 font-medium py-3 px-6 rounded-lg cursor-not-allowed" type="button" disabled>
+                                        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                                        </svg>
+                                        準備中
+                                    </button>
+                                    {% endif %}
                                 </div>
                             </div>
                             

@@ -17,6 +17,10 @@ entrance_fee: "一般: 1,500円 / 学生: 無料"
 application_deadline: "発表申込締切: TBA"
 manuscript_deadline: "発表原稿締切: TBA"
 social_gathering_application_deadline: "聴講・懇親会参加申込締切：TBA" 
+application_form:
+  # "未公開" / "公開中" / "終了" のいずれかを指定
+  status: "公開中"
+  url: "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=dqpZ2qrg50-_EXI97pjWdorPFvBF-BFDr4AyG3iXSWNUMkFUMVRSMDREVDNBSjA5TkNJTlUyTEFOMC4u"
 application_description: "
 発表をご希望の方は、以上の締め切りをご確認の上、下記のメールからご回答ください。<br />
 また、発表される場合は発表原稿フォーマットをダウンロードし、フォーマットにしたがって原稿を執筆のうえ、メール（fftprs[at]googlegroups.com）にて送付ください。<br />

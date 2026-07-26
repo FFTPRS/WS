@@ -22,10 +22,10 @@ application_form:
   status: "公開中"
   url: "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=dqpZ2qrg50-_EXI97pjWdorPFvBF-BFDr4AyG3iXSWNUMkFUMVRSMDREVDNBSjA5TkNJTlUyTEFOMC4u"
 application_description: "
-発表をご希望の方は、以上の締め切りをご確認の上、下記のメールからご回答ください。<br />
-また、発表される場合は発表原稿フォーマットをダウンロードし、フォーマットにしたがって原稿を執筆のうえ、メール（fftprs[at]googlegroups.com）にて送付ください。<br />
+発表をご希望の方は、以上の締め切りをご確認の上、下記のフォームからご回答ください。<br />
+また、発表される場合は発表原稿フォーマットをダウンロードし、フォーマットにしたがって原稿を執筆のうえ、メール（fftprs[at]googlegroups.com）にてご送付ください。<br />
 なお、講演(および参加)希望者多数の場合には、会場の広さなどの関係で参加をお断りせざるを得ない場合があります。予めご了承ください。<br />
-予稿集は当日配布いたします。"
+予稿集は当日までに発行いたします。"
 
 program: 
   - day: "1日目: 2026年09月15日(火)"
@@ -36,7 +36,7 @@ program:
       description: ""
 
 proceedings: ""
-manuscript_format: "https://github.com/FFTPRS/WS/assets/zip/raw/master/fftprsws26.zip"
+manuscript_format: "https://github.com/FFTPRS/WS/raw/master/assets/zip/fftprsws26.zip"
 
 
 links: 

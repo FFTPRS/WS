@@ -13,10 +13,10 @@ end_date: 2026-09-16
 place: "九州情報大学大学院　博多キャンパス1号館"
 place_url: https://www.kiis.ac.jp/information/access/accesss_daigakuin/
 google_map: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.5611204986308!2d130.42361671551183!3d33.590742649355306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354191c95dc5c507%3A0x748fc6e8af06e813!2z44CSODEyLTAwMTMg56aP5bKh55yM56aP5bKh5biC5Y2a5aSa5Yy65Y2a5aSa6aeF5p2x77yR5LiB55uu77yR77yZ4oiS77yR77yY!5e0!3m2!1sja!2sjp!4v1558584222344!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-entrance_fee: "一般: 1,500円 / 学生: 無料"
+entrance_fee: "一般: 1,500円 / 学生: 無料 （懇親会 一般: 7,500円 / 学生: 3,000円）"
 application_deadline: "発表申込締切: 2026年8月31日 (月)"
 manuscript_deadline: "発表原稿締切: 2026年9月04日 (金)"
-social_gathering_application_deadline: "聴講申込締切: 2026年9月07日 (月)　懇親会参加申込締切: 2026年8月31日 (月)" 
+social_gathering_application_deadline: "聴講申込締切: 2026年9月07日 (月)　懇親会参加申込締切: 2026年<del>8月31日</del> 9月07日 (月)<b>延長しました</b>" 
 application_form:
   # "未公開" / "公開中" / "終了" のいずれかを指定
   status: "公開中"
@@ -25,7 +25,7 @@ application_description: "
 発表をご希望の方は、以上の締め切りをご確認の上、下記のフォームからご回答ください。<br />
 また、発表される場合は発表原稿フォーマットをダウンロードし、フォーマットにしたがって原稿を執筆のうえ、メール（fftprs[at]googlegroups.com）にてご送付ください。<br />
 なお、講演(および参加)希望者多数の場合には、会場の広さなどの関係で参加をお断りせざるを得ない場合があります。予めご了承ください。<br />
-予稿集は当日までに発行いたします。"
+予稿集は当日までに発行いたします。また、15日の19時から懇親会を予定しております。ご参加の可否についても併せて申込みフォームからご回答ください。"
 
 program: 
   - day: "1日目: 2026年09月15日(火)"
@@ -34,6 +34,10 @@ program:
       title: "TBD"
       speaker: ""
       description: ""
+    - time: "19:00 - "
+      title: "懇親会"
+      speaker: "会場: TBA"
+      description: "TBA"
 
 proceedings: ""
 manuscript_format: "https://github.com/FFTPRS/WS/raw/master/assets/zip/fftprsws26.zip"

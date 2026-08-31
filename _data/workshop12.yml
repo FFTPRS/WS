@@ -36,9 +36,10 @@ program:
       description: ""
     - time: "19:00 - 22:00"
       title: "懇親会"
-      speaker: "会場: <a href="https://shiroya-hakata.com/" target="_blank" rel="noopener noreferrer">もつ鍋とごま鯖が自慢の居酒屋 個室 しろ屋 博多駅筑紫口店</a>"
-      description: "福岡県福岡市博多区博多駅東2-1-24 ギャラリー博多６F<br />
-                    ℡: 092-411-0558"
+      speaker: "会場: もつ鍋とごま鯖が自慢の居酒屋 個室 しろ屋 博多駅筑紫口店"
+      description: "🏮福岡県福岡市博多区博多駅東2-1-24 ギャラリー博多6F<br />
+                    ☎️ 092-411-0558<br />
+                    🔗 https://shiroya-hakata.com/"
 
 proceedings: ""
 manuscript_format: "https://github.com/FFTPRS/WS/raw/master/assets/zip/fftprsws26.zip"

@@ -15,7 +15,8 @@ place_url: https://www.kiis.ac.jp/information/access/accesss_daigakuin/
 google_map: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.5611204986308!2d130.42361671551183!3d33.590742649355306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354191c95dc5c507%3A0x748fc6e8af06e813!2z44CSODEyLTAwMTMg56aP5bKh55yM56aP5bKh5biC5Y2a5aSa5Yy65Y2a5aSa6aeF5p2x77yR5LiB55uu77yR77yZ4oiS77yR77yY!5e0!3m2!1sja!2sjp!4v1558584222344!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 entrance_fee: "一般: 1,500円 / 学生: 無料 （懇親会 一般: 7,500円 / 学生: 3,000円）"
 application_deadline: "聴講申込締切: 2026年09月07日 (月)"
-manuscript_deadline: "発表申込締切: 2026年<del>08月31日 (月)</del> 09月09日 (水)　発表原稿締切: 2026年<del>09月04日 (金)</del> 09月09日 (水) <b>延長しました</b>"
+manuscript_deadline: "発表原稿締切: 2026年<del>09月04日 (金)</del> 09月09日 (水) <b>延長しました</b>"
+presentation_submission_deadline: "発表申込締切: 2026年<del>08月31日 (月)</del> 09月09日 (水) <b>延長しました</b>"
 social_gathering_application_deadline: "懇親会参加申込締切: 2026年<del>08月31日 (月)</del> 09月09日 (水) <b>延長しました</b>" 
 application_form:
   # "未公開" / "公開中" / "終了" のいずれかを指定

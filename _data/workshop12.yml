@@ -50,7 +50,10 @@ program:
     - time: "14:00 - 14:30"
       title: "講演2: ブロックチェーン型大学図書館コンソーシアムにおける利用資格認証の要件と構成"
       speaker: "*関川 謙人(北九州市立大学), 荒木 俊輔(九州工業大学), 上原 聡(北九州市立大学)"
-      description: "This study examines how user authentication should be designed for a blockchain-based academic library consortium. We define requirements for privacy, eligibility verification, availability, and the integrity of usage and royalty records. We then describe an architecture that separates personal information and individual reading histories from information shared on a consortium blockchain. Single Sign-On (SSO), Verifiable Credentials (VCs), and their possible combination are considered as authentication options. Neither SSO nor VCs inherently requires blockchain; the shared ledger instead provides trust information, access policies, and verifiable records across institutions. Further study is required to determine the appropriate division of roles and address credential sharing and revocation.
+      description: "<details>
+        <summary>Abstract</summary>
+        This study examines how user authentication should be designed for a blockchain-based academic library consortium. We define requirements for privacy, eligibility verification, availability, and the integrity of usage and royalty records. We then describe an architecture that separates personal information and individual reading histories from information shared on a consortium blockchain. Single Sign-On (SSO), Verifiable Credentials (VCs), and their possible combination are considered as authentication options. Neither SSO nor VCs inherently requires blockchain; the shared ledger instead provides trust information, access policies, and verifiable records across institutions. Further study is required to determine the appropriate division of roles and address credential sharing and revocation.
+        </details>
         Keywords— Blockchain, Digital Library, User Authentication, Single Sign-On, Verifiable Credentials"
     - time: "14:30 - 15:00"
       title: "休憩＆歓談"
@@ -58,7 +61,7 @@ program:
       description: ""
     - time: "15:00 - 15:30"
       title: "講演3: キルヒホッフの行列木定理による迷路の種類数探索"
-      speaker: "発表者:  *宮崎 武(九州情報大学), 荒木 俊輔(九州工業大学), 上原 聡(北九州市立大学)"
+      speaker: "*宮崎 武(九州情報大学), 荒木 俊輔(九州工業大学), 上原 聡(北九州市立大学)"
       description: "<details>
         <summary>Abstract</summary>
         In this paper, we use Kirchhoff’s Matrix Tree Theorem from graph theory to theoretically analyze the number of distinct maze types considering both connected and unconnected cases and demonstrate that our calculations are correct by comparing the results with those obtained through exhaustive searches on a smaller scale.

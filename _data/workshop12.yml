@@ -34,7 +34,7 @@ program:
     - time: "13:00 - 13:25"
       title: "受付"
       speaker: ""
-      description: ""
+      description: "703教室、701教室付近にて受付を行います。受付にて参加費をお支払いください。"
     - time: "13:25 - 13:30"
       title: "開会挨拶"
       speaker: ""
@@ -42,7 +42,10 @@ program:
     - time: "13:30 - 14:00"
       title: "講演1: PQC における SHA-3/SHAKE の選択根拠と代替候補に関する調査報告"
       speaker: "*小寺 雄太(岡山大学)"
-      description: "This paper surveys why SHAKE is widely used for deterministic expansion and why the SHA-3 family repeatedly appears as an internal component of NIST post-quantum cryptography (PQC).We distinguish entropy sources and deterministic random bit generators (DRBGs) from extendable-output functions (XOFs) and pseudorandom functions (PRFs) used inside ML-KEM, ML-DSA, and SLH-DSA. SHAKE combines native variable-length output, NIST approval, a random-oracle rationale, and a reusable implementation. Possible migration paths include SHA-2 with keyed-hash message authentication codes (HMACs) and mask generation functions (MGFs), AES-based expansion, Ascon-XOF128, and independently designed XOFs. Their suitability depends on the failure mode, required security category, proof assumptions, and platform rather than speed alone.<br/>
+      description: "<details><summary>
+        Abstract</summary>
+        This paper surveys why SHAKE is widely used for deterministic expansion and why the SHA-3 family repeatedly appears as an internal component of NIST post-quantum cryptography (PQC).We distinguish entropy sources and deterministic random bit generators (DRBGs) from extendable-output functions (XOFs) and pseudorandom functions (PRFs) used inside ML-KEM, ML-DSA, and SLH-DSA. SHAKE combines native variable-length output, NIST approval, a random-oracle rationale, and a reusable implementation. Possible migration paths include SHA-2 with keyed-hash message authentication codes (HMACs) and mask generation functions (MGFs), AES-based expansion, Ascon-XOF128, and independently designed XOFs. Their suitability depends on the failure mode, required security category, proof assumptions, and platform rather than speed alone.
+        </details>
         Keywords— post-quantum cryptography, SHA-3, SHAKE, sponge construction, seed expansion"
     - time: "14:00 - 14:30"
       title: "講演2: ブロックチェーン型大学図書館コンソーシアムにおける利用資格認証の要件と構成"
@@ -81,12 +84,12 @@ program:
       description: "No closed-form formula is currently known for the number of minimal polynomials of Gauss Normal Bases (GNB) over finite fields GF(<i>q<sup>m</sup></i>). In our previous report, we proposed a GNB minimal polynomial identification method using trace vectors and demonstrated that length-<i>m</i> vectors suffice for odd primes <i>q</i>, while collisions occur for <i>q</i> = 2. Focusing on the trace sequence of powers of the GNB generator <i>ω</i>, this paper clarifies four points through numerical experiments: (1) the number of distinct values of Tr(<i>ω</i><sup>2</sup>) follows a regular pattern depending on <i>m</i> and <i>q</i>; (2) the modified <i>η</i> matrix and the length-2<i>m</i> trace vector are in oneto-one correspondence, and the “branching” phenomenon originates from rows with <i>j</i> − <i>i</i> = <i>m</i>/2; (3) for <i>m</i> ≤ <i>q</i>, the length-<i>m</i> trace vector alone uniquely determines the GNB minimal polynomial, supported by 15 experimental cases; (4) a Legendre-symbol criterion predicts the number of distinct values of Tr(<i>ω</i><sup>2</sup>) without exception for even <i>m</i>, whereas the analogous criterion for odd <i>m</i> is found to fail once <i>m</i> is extended to 49.<br/>
         Keywords— finite field, Gauss Normal Basis, minimal polynomial, trace vector, eta matrix"
     - time: "10:30 - 11:00"
-      title: "秘匿性と公開検証性を備えた情報プラットフォームのためのブロックチェーン技術に関するPedersen Commitmentの検討"
+      title: "講演7: 秘匿性と公開検証性を備えた情報プラットフォームのためのブロックチェーン技術に関するPedersen Commitmentの検討"
       speaker: "*荒木 俊輔(九州工業大学), 吉田健人(九州工業大学)"
       description: "We extend our previous UTXO-based design for plastic resource traceability to hide individual quantities while preserving public verification of the input-output balance. Treating the quantity in each operator’s internal ledger and its on-ledger public representation as the same value in two forms, we examine the limitations of hashonly representations and ordinary single-key additive homomorphic encryption for this purpose. We then describe how Pedersen commitments can be applied, using randomness adjustment between input and output commitments together with range proofs, so that any third party can verify a process’s balance without learning the quantities or relying on a common decryption authority, while each recipient receives only the opening information for its own output. We specify additional constraints for initial issuance and for recycled-content claims.<br/>
         Keywords — Plastic Resource Circulation, UTXO, Pedersen Commitment, Confidential Transactions, Public Verification"
     - time: "11:00 - 11:30"
-      title: "高次元均等分布性が最大となるdecimated GFSR擬似乱数生成法に関する研究"
+      title: "講演8: 高次元均等分布性が最大となるdecimated GFSR擬似乱数生成法に関する研究"
       speaker: "河村 康正(愛媛大学), 原本 博史(愛媛大学)"
       description: "We investigate d-decimations of GFSR sequences based on the 20 primitive pentanomials of Mersenne-exponent degree between 31 and 44497 tabulated by Kurita and Matsumoto. For 32- and 64-bit equivalent Tausworthe outputs, dimensions of equidistribution are systematically evaluated. Every odd d up to 99 is examined; if no maximally equidistributed value is found, the search is continued to the first such <i>d</i>. We reproduce Wu’s reported parameters and find additional 32-bit cases, including <i>d</i> = 65, 75, 83 for <i>p</i> = 607. TestU01 BigCrush experiments show that, apart from tests detecting <b>F</b><sub>2</sub>-linearity, most high-degree cases pass the battery.<br/>
         Keywords— GFSR, decimation, maximal equidistribution, dual lattice, TestU01"

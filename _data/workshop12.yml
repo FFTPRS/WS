@@ -77,12 +77,12 @@ program:
         Keywords— Hadamard-type matrix, finite field, circulant matrix, number theoretic transform matrix, eigenvalue"
     - time: "16:00 - 16:30"
       title: "講演5: QCGおよび整数上のテント写像に対する攪拌処理の適用とNIST SP800-22 に関する一考察"
-      speaker: "*桑原 大雅(北九州市立大学), 林 夏生(北九州市立大学), 上原 聡(北九州市立大学)"
+      speaker: "*桒原 大雅(北九州市立大学), 林 夏生(北九州市立大学), 上原 聡(北九州市立大学)"
       description: "<details>
         <summary>Abstract</summary>
         This study investigates the effects of shuffle operations on pseudo-random number generators (PRNGs). Shuffle operations have been proposed as a method for improving the statistical properties of PRNGs implemented using integer arithmetic. The operations combine two PRNG states using two’s complement representation, bit shifts, and exclusive OR. In this study, the operations are applied to a quadratic congruential generator (QCG) and a tent map over integers (TM). For each PRNG, sequences generated without and with the shuffle operations are evaluated using NIST SP800-22. The results show that the shuffle operations reduce the failure ratios of multiple tests for both QCG and TM. In particular, the Non-overlapping Template test shows a substantial reduction in the failure ratio for both PRNGs. These results indicate that the effects of the shuffle operations depend on the PRNG and test.
         </details>
-        Keywords— Pseudo-Random Number Generator, Quadratic Congruential Generator, Tent Map over Integers, NIST SP800-22"
+        Keywords— Pseudorandom Number Generator, Quadratic Congruential Generator, Tent Map over Integers, NIST SP800-22"
     - time: "19:00 - 22:00"
       title: "懇親会"
       speaker: "会場: もつ鍋とごま鯖が自慢の居酒屋 個室 しろ屋 博多駅筑紫口店"
@@ -116,6 +116,10 @@ program:
         </details>
         Keywords— GFSR, decimation, maximal equidistribution, dual lattice, TestU01"
     - time: "11:30 - 12:00"
+      title: "講演9: 整数化した4次元Lorenz-Stenﬂo方程式を用いた擬似乱数列共有手法における受信側パラメータ変化に対する同期評価- JSIAM2026発表内容の紹介 -"
+      speaker: "*上原大(九州工業大学), 顏錦柱(国立勤益科技大学), 宮﨑武(九州情報大学), 上原聡(北九州市立大学), 荒木俊輔(九州工業大学)"
+      description: "日本応用数理学会2026年度年会　にて発表した内容の紹介です。"
+    - time: "12:00 - 12:30"
       title: "閉会挨拶 & 記念写真"
       speaker: ""
       description: ""
